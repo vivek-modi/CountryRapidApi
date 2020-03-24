@@ -1,17 +1,16 @@
 package com.vivek.rapidapi
 
+import org.junit.Assert
 import org.junit.Test
+import org.koin.test.KoinTest
 
-import org.junit.Assert.*
+class ExampleUnitTest : KoinTest {
 
-/**
- * Example local unit test, which will execute on the development machine (host).
- *
- * See [testing documentation](http://d.android.com/tools/testing).
- */
-class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun `unit test`() {
+        val countryApplication = CountryApplication()
+        Assert.assertNotNull(countryApplication)
     }
+
+
 }
