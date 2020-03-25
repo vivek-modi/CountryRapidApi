@@ -3,7 +3,6 @@ package com.vivek.rapidapi.bindings
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.vivek.rapidapi.adapters.CountryAdapter
 import com.vivek.rapidapi.adapters.LanguageAdapter
 
 @BindingAdapter("setLanguageAdapter")
